@@ -4,13 +4,13 @@ Hi! In this section you'll find some material you'll need to be familiar with fo
 
 One thing you need to keep in mind, is that Javascript is a language that was originally developed for the web, as such, there are many resources that will intertwine Javascript content with web one.
 
-I ask you to relax, and not be shied away by unintuitive or weird sounding words, you can always ask questions if you get stuck... speaking of which:
+I ask you to relax, and stand strong in the face of unintuitive or weird sounding words, you can always ask questions if you get stuck... speaking of which:
 
 ## Ask questions!
 
-Please don't feel afraid to ask questions, the point of all this is to learn.
+Please don't feel afraid to ask questions, the entire point of this is teaching.
 
-While reading, please try to read things carefully, but if you cannot make sense of some piece of material on your own, please do ask. Ideally, do so in the group, so that anybody who might've been stuck in the same place can also try and help you and/or learn from the answer too.
+While reading, please try to read things carefully, but if you cannot make sense of some piece of material on your own, please do ask for help. Ideally, do so in the group, so that anybody who might've been stuck in the same place can also try and help you and/or learn from the answer too.
 
 > If you are a little bit more experienced with Javascript, remember that not every one in the group is, please avoid highly technical language unless required
 
