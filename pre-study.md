@@ -18,6 +18,8 @@ While reading, please try to read things carefully, but if you cannot make sense
 
 Here, I'll cover some basic concepts, so that you can go on to reading external resources more confidently
 
+---
+
 ### Comments
 
 ```js
@@ -27,8 +29,51 @@ Here, I'll cover some basic concepts, so that you can go on to reading external 
 // they do not get executed, they are just there as regular old text
 ```
 
+Because they are not executed, they are often used to explain what different parts of a script do. This helps others (as well as future you 😉) understand what you intend to achieve with certain bits code
+
+Comments are also frequently used to comment-out parts of a script, to test what effect adding/removing said parts has
+
+---
+
 ### Variables
 
+In Javascript, all data can either be *Fixed*, or *Variable*
+
+Fixed data is data you type out every time you need to use it, while Variable data is assigned to a variable, which can then be used to reference the data
+
+<details>
+<summary>An example of how that helps simplify your code</summary>
+
+```js
+const maxScore = 10 * 5;
+
+// use the value to do things in other parts of the code
+// these are functions 👇, you'll learn about them later
+createSceneObject(10);
+printOutValue(10);
+```
+
+If instead you used variables, you would make your code easier to read, as well as making it easier to change in the future!
+
+```js
+// create a variable of constant value (the number 10)
+const amount = 10;
+// create a second variable, based off the value of `amount`
+const maxScore = amount * 5;
+
+// use the value to do things in other parts of the code
+// these are functions 👇 you'll learn about them later
+createSceneObject(amount);
+printOutValue(amount);
+```
+
+> The ability to easily change code is important! As it lets you test out different values or ideas without having to change multiple values all around your script
+
+---
+
+</details>
+
+#### let
 ```js
 // this is a variable
 // think of variables as buckets of memory that store things
@@ -41,7 +86,7 @@ myVariableName = "a different string of characters";
 // note that when re-assigning, you do not use the `let` keyword again
 // the keyword is only used when declaring a variable for the first time
 ```
-
+#### const
 ```js
 // you can use the `const` keyword to declare variables that have a constant value
 const aConstantValueVariable = 1.0;
@@ -49,18 +94,31 @@ const aConstantValueVariable = 1.0;
 // trying to reassign them throws an error (because it's not allowed)
 // both of the following lines are examples of code that would fail
 aConstantValueVariable = 2.0; // (tries to reassign) fails
-aConstantValueVariable += 1; // (tries to add one) fails
+aConstantValueVariable = aConstantValueVariable + 1; // (tries to add one and reassign) fails
 ```
+
+#### var
+
+`var` is another keyword that you can use to declare variables, it works in a similar way to `let`, *but not exactly*. For the purpose of keeping it simple, **the use of** `var` **is discouraged**
+
+```js
+var aVariable = "a string";
+aVariable = "you can reassign, just like when using let";
+```
+
+---
 
 ### Data types
 
 One of the most important part of learning any language, is getting familiar with its data types
 
-Data types are just the different ways a language uses to encapsulate data
+Data types are just the different ways a language uses to encapsulate data. This same concept exists in the Spark AR Studio Patch editor (to see it, create an option picker, and then check out the different data types that you can select)
 
 The following explanations are pretty shallow, but hopefully they can help you understand other resources
 
 Let's start with an easy one
+
+---
 
 #### Number
 
@@ -82,6 +140,8 @@ let anotherNum = 3;
 anotherNum = anotherNum / 2; // divides 3 by 2, resulting in 1.5
 ```
 
+---
+
 #### Strings
 
 Strings are sequences of characters.
@@ -96,11 +156,39 @@ let aCoolString = "the text thats part of a string does not get executed as code
 aCoolString = aCoolString + " you can also add strings together, which does exactly what youd expect";
 ```
 
+---
+
+#### Arrays
+
+Arrays are Objects which hold a *list* of values.
+
+The values stored in an array may be of different data types
+
+The different values inside an array can be accessed via their **index** in the list
+
+> Computers count from 0! So the 0th item is the first one in the list
+
+```js
+let anArrayOfNumbers = [10,20,30];
+
+anArrayOfNumbers[0]; // 10
+anArrayOfNumbers[1]; // 20
+anArrayOfNumbers[2]; // 30
+
+anArrayOfNumbers[3]; // undefined, the list doesn't have a 4th item
+```
+
+---
+
 #### Objects
 
 Objects is one of the most important data types. You'll work with Objects all the time
 
-Objects are collections of *properties*, in other words, you store other data types together
+Objects are collections of *properties*, in other words, you store other values together.
+
+> The values stored may be of completely different data types
+
+Unlike arrays, Objects do not have an order, you need to use the specific keys to retrieve a value
 
 ```js
 // To create an object, we use curly braces, and place a "key" followed by it's value
@@ -125,16 +213,40 @@ prettierObj["a long key with spaces in it"] // works
 prettierObj.a long key with spaces in it // fails
 ```
 
+> If you read the definition of Array, you might've noticed it says Arrays are Objects, and that's because most things in Javascript (sometimes even other data types), are Objects. Arrays, aside from having their number indexed properties/values, also have different properties indexed by string; for example: `[1,2,0].sort()` (returns the sorted array `[0,1,2]`)
+
+---
+
 ## External resources
 
 > Remember that Javascript and it's internal workings are comprised by Standards (notably the ECMA standard), so external resources might reference ECMA or IEEE standards, don't be afraid if you don't understand the language around these standards, they are pretty advanced/ not meant for beginners!
 
 Even though these are external, please, do ask questions you might have while reading them!
 
-- [(Youtube) Learn Javascript in 12 minutes](https://youtu.be/Ukg_U3CnJWI). This video is intended for Web developers, but it's really good and concise :). The only points that are not applicable to Spark:
+- [(Youtube) Learn Javascript in 12 minutes](https://youtu.be/Ukg_U3CnJWI). This video is intended for Web developers, but it's really good and concise :).<details><summary> The only differences / points that are not applicable to Spark </summary>
 
     - Everything that's wrapped in `<angle brackets>` is HTML (don't focus on that)
-    - `alert()` and `document.write()` are web-specific, don't think about them too much. The Spark AR version of these is `Diagnostics.log()`, which prints out a value so you can inspect it
+        ```html
+        <html>
+            <head>
+            </head>
+            <body>
+                <script>
+                    // some actual javascript code here
+                    let myCode = "some javascript code here";
+                </script>
+            <body>
+        </html>
+        ```
+        Simply becomes
+        ```js
+        // some actual javascript code here
+        let myCode = "some javascript code here";
+        ```
+
+
+    - `alert()` and `document.write()` are web-specific, don't think about them too much. In this case, the Spark AR version of these is `Diagnostics.log()`, which prints out a value so you can inspect it
+</details>
 
 - [LearnXInYMinutes: Javascript](https://learnxinyminutes.com/docs/javascript/)
 
