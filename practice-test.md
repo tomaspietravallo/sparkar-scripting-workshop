@@ -17,9 +17,11 @@ It is recommended that you use Visual Studio Code, as it's the code editor we'll
 
 To start writing your script in Visual Studio Code:
 1. Open Visual Studio Code
-2. > File > New File
+2. `> File > New File`
 3. Select `Javascript` or `Typescript` as your language
 4. Start writing
+
+You can also create a new Spark AR Project, head to the asset panel, create a new script (for this test, either Javascript or Typescript are OK), and open it in your code editor of choice.
 
 <!-- ### LeetCode playground **Modify to playground.arprojpkg**
 For these exercises, you can also try out using the [LeetCode playground](https://leetcode.com/playground/new/empty). Which will allow you to execute the code you write
@@ -37,7 +39,7 @@ console.log(x); // this will print out 2
 
 See the [practice-test-answer.md](practice-test-answer.md) file to compare your answer.
 
-You're probably wondering if there's a way to run/ execute your code and tell if it does well, instead of just comparing. The answer is that you'll learn how to run your code inside of Spark AR Studio later on, but for now, if you really want to execute your code, you can try using the [playground](README.md#content)
+You're probably wondering if there's a way to run/ execute your code and tell if it does well, instead of just comparing. The answer is that you'll learn how to run your code inside of Spark AR Studio later on, but for now, if you really want to execute your code, you can try using the [playground](playground.md)
 
 ## The actual test
 

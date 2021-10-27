@@ -44,7 +44,7 @@ A big thanks goes out to the team at Facebook, who immediately reached out to he
 - [pre-study.md](pre-study.md) a list of content to be studied before the actual
 - [practice-test.md](practice-test.md) a sample test that can be used to measure one's knowledge before the actual test
 - [practice-test-answer.md](practice-test-answer.md) use this answer of the practice test to compare against your own. Do not open before attempting to solve the test
-- [playground](playground) a Spark AR project you can use to play around with different concepts. **Not ready yet**
+- [playground](playground) a Spark AR project you can use to play around with different concepts
 
 ## Speaker/ educator content
 > **These files are NOT intended for workshop participants**, they contain more technical language, and may confuse or shy away beginners! They are targeted at other developers who may want to hold their own events and/or see the reasoning behind the choices made
