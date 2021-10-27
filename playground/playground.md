@@ -30,7 +30,7 @@ You're probably wondering how and where to write code... Can you do it on a phon
 ### Opening the project
 
 To use the playground
-1. Download it
+1. [Download it](https://raw.githubusercontent.com/tomaspietravallo/sparkar-scripting-workshop/master/playground/playground.arprojpkg)
 2. Open the project in Spark AR Studio
 3. Head to the asset panel, and open the Script
 4. Start to modify it!
