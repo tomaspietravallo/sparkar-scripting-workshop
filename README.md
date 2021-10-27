@@ -58,4 +58,6 @@ If you model your own event after this workshop, please [open an issue](https://
 
 A big thanks goes out to
 
-- [Balraj Bains](https://github.com/bb1100), for helping out with the [pre-study content]((pre-study.md))
+- [Mike Peredo](https://github.com/bobocat) and [Joe](https://www.instagram.com/projoe.arfilters), for inspiring this workshop
+- [Balraj Bains](https://github.com/bb1100) and [Beth Wickerson](https://github.com/bethwickerson), for helping out with the [pre-study content]((pre-study.md))
+- [Noland Chaliha](https://github.com/yearofthewhopper), for helping with the tests and content selection
