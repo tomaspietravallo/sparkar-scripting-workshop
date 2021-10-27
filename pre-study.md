@@ -223,6 +223,8 @@ prettierObj.a long key with spaces in it // fails
 
 Even though these are external, please, do ask questions you might have while reading them!
 
+> Pro tip: On top of trying to strengthen your knowledge of different data types, while studying, try to keep an eye out for different reasons why using *Variables* and *Iterators* can help simplify your code, and make it easier to read and modify. See an example of this under the definition of [Variables](#variables). You'll learn about *Iterators* with the help of the resources listed below
+
 - [(Youtube) Learn Javascript in 12 minutes](https://youtu.be/Ukg_U3CnJWI). This video is intended for Web developers, but it's really good and concise :).<details><summary> The only differences / points that are not applicable to Spark </summary>
 
     - Everything that's wrapped in `<angle brackets>` is HTML (don't focus on that)
