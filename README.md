@@ -41,9 +41,9 @@ A big thanks goes out to the team at Facebook, who immediately reached out to he
 - [ ] Staying in touch with each other and continuing the journey
 
 ## Content
-- [pre-study.md](pre-study.md) a list of content to be studied before the actual
-- [practice-test.md](practice-test.md) a sample test that can be used to measure one's knowledge before the actual test
-- [practice-test-answer.md](practice-test-answer.md) use this answer of the practice test to compare against your own. Do not open before attempting to solve the test
+- [pre-study.md](pre-study.md) a list of content to be studied before the workshop
+- [practice-test.md](practice-test.md) a sample test that can be used to test one's knowledge before the real test
+- [practice-test-answer.md](practice-test-answer.md) use these answer of the practice test to compare against your own. Do not open before attempting to solve the test
 - [playground](playground) a Spark AR project you can use to play around with different concepts
 
 ## Speaker/ educator content
