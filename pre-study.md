@@ -24,9 +24,7 @@ Here, I'll cover some basic concepts, so that you can go on to reading external 
 
 Javascript is a programming language that was originally developed for the web in 1995, and it has evolved over time to better suit the needs of programmers.
 
-You can think of
-
-It is the language used by Spark AR Studio to provide an interface to various functions, and give creators more powerful tools to aid in the creation of advanced AR experiences
+You can think of programming languages like Javascript, as a sort of cooking recipe. In this case, the different instructions in the recipe are your code, and the final result will be the output or behaviors you code for. Unfortunately, the internet has not yet found a way to make code tasty.
 
 ---
 
@@ -36,7 +34,7 @@ It is the language used by Spark AR Studio to provide an interface to various fu
 // this is a comment
 // any line beginning with two slashes (//) is a comment
 // comments are just that
-// they do not get executed, they are just there as regular old text
+// they do not get executed as instructions, they are just there as regular old text
 ```
 
 Because they are not executed, they are often used to explain what different parts of a script do. This helps others (as well as future you 😉) understand what you intend to achieve with certain bits code
