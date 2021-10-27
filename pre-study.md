@@ -20,6 +20,16 @@ Here, I'll cover some basic concepts, so that you can go on to reading external 
 
 ---
 
+### History
+
+Javascript is a programming language that was originally developed for the web in 1995, and it has evolved over time to better suit the needs of programmers.
+
+You can think of
+
+It is the language used by Spark AR Studio to provide an interface to various functions, and give creators more powerful tools to aid in the creation of advanced AR experiences
+
+---
+
 ### Comments
 
 ```js
@@ -67,7 +77,7 @@ createSceneObject(amount);
 printOutValue(amount);
 ```
 
-> The ability to easily change code is important! As it lets you test out different values or ideas without having to change multiple values all around your script
+> The ability to easily change code is important! As it lets you test out different values or ideas without having to change multiple values all around your script. [After doing the pre-study, you can see a fun video by Tom Scott explain this concept a little bit better](https://youtu.be/QPZ0pIK_wsc)
 
 ---
 
@@ -219,11 +229,11 @@ prettierObj.a long key with spaces in it // fails
 
 ## External resources
 
-> Remember that Javascript and it's internal workings are comprised by Standards (notably the ECMA standard), so external resources might reference ECMA or IEEE standards, don't be afraid if you don't understand the language around these standards, they are pretty advanced/ not meant for beginners!
+> **Remember**: that Javascript and it's internal workings are comprised by Standards (notably the ECMA standard), so external resources might reference ECMA or IEEE standards, don't be afraid if you don't understand the language around these standards, they are pretty advanced/ not meant for beginners!
+
+> **Pro tip**: On top of trying to strengthen your knowledge of different data types, while studying, try to keep an eye out for different reasons why using *Variables* and *Iterators* can help simplify your code, and make it easier to read and modify. See an example of this under the definition of [Variables](#variables). You'll learn about *Iterators* with the help of the resources listed below.<br><br>[See a fun video by Tom Scott explain this idea better]((https://youtu.be/QPZ0pIK_wsc))
 
 Even though these are external, please, do ask questions you might have while reading them!
-
-> Pro tip: On top of trying to strengthen your knowledge of different data types, while studying, try to keep an eye out for different reasons why using *Variables* and *Iterators* can help simplify your code, and make it easier to read and modify. See an example of this under the definition of [Variables](#variables). You'll learn about *Iterators* with the help of the resources listed below
 
 - [(Youtube) Learn Javascript in 12 minutes](https://youtu.be/Ukg_U3CnJWI). This video is intended for Web developers, but it's really good and concise :).<details><summary> The only differences / points that are not applicable to Spark </summary>
 
