@@ -39,7 +39,7 @@ console.log(x); // this will print out 2
 
 See the [practice-test-answer.md](practice-test-answer.md) file to compare your answer.
 
-You're probably wondering if there's a way to run/ execute your code and tell if it does well, instead of just comparing. The answer is that you'll learn how to run your code inside of Spark AR Studio later on, but for now, if you really want to execute your code, you can try using the [playground](playground.md)
+You're probably wondering if there's a way to run/ execute your code and tell if it does well, instead of just comparing. The answer is that you'll learn how to run your code inside of Spark AR Studio later on, but for now, if you really want to execute your code, you can try using the [playground](playground)
 
 ## The actual test
 
