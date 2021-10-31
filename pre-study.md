@@ -255,7 +255,7 @@ Even though these are external, please, do ask questions you might have while re
         ```
 
 
-    - `alert()` and `document.write()` are web-specific, don't think about them too much. In this case, the Spark AR version of these is `Diagnostics.log()`, which prints out a value so you can inspect it
+    - `alert()`, `document.write()`, `console.log()` are web-specific, don't think about them too much. In this case, the Spark AR version of these is `Diagnostics.log()`, which prints out a value so you can inspect it
 </details>
 
 - [LearnXInYMinutes: Javascript](https://learnxinyminutes.com/docs/javascript/)
