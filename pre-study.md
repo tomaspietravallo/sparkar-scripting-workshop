@@ -47,7 +47,7 @@ Comments are also frequently used to comment-out parts of a script, to test what
 
 In Javascript, all data can either be *Fixed*, or *Variable*
 
-Fixed data is data you type out every time you need to use it, while Variable data is assigned to a variable, which can then be used to reference the data
+Fixed data is data you type out every time you need to use it, while *Variable data* is assigned to a variable, which can then be used to reference the data
 
 <details>
 <summary>An example of how that helps simplify your code (click to open)</summary>
