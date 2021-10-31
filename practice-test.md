@@ -11,7 +11,7 @@ Write a script, where you:
 
 You can write the code in any way / code editor you want, as long as you are comfortable with what you choose.
 
-It is recommended that you use Visual Studio Code, as it's the code editor we'll be using to teach this workshop, and is the one preferred by Spark AR Studio. If you want to execute your code (not required), you can use the LeetCode playground
+It is recommended that you use Visual Studio Code, as it's the code editor we'll be using to teach this workshop, and is the one preferred by Spark AR Studio. If you want to execute your code (not required), you can use the playground
 
 ### Visual Studio Code
 
