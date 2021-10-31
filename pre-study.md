@@ -16,7 +16,9 @@ While reading, please try to read things carefully, but if you cannot make sense
 
 ## Some basics
 
-Here, I'll cover some basic concepts, so that you can go on to reading external resources more confidently
+Here, I'll cover some basic concepts, so that you can go on to reading external resources more confidently.
+
+After reading these short intros, move on to reading the [External Resources](#external-resources).
 
 ---
 
@@ -224,6 +226,12 @@ prettierObj.a long key with spaces in it // fails
 > If you read the definition of Array, you might've noticed it says Arrays are Objects, and that's because most things in Javascript (sometimes even other data types), are Objects. Arrays, aside from having their number indexed properties/values, also have different properties indexed by string; for example: `[1,2,0].sort()` (returns the sorted array `[0,1,2]`)
 
 ---
+
+#### Other data types
+
+You've reached the end of the intro, but Javascript has a few other data types & aspects, these are covered in the [External Resources](#external-resources) below. Hopefully this brief intro will help you understand those better.
+
+After reading the [External Resources](#external-resources), please play around in the [playground](playground/playground.md), and later [attempt the practice test](practice-test.md)
 
 ## External resources
 
