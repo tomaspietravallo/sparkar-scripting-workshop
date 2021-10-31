@@ -10,7 +10,7 @@ The idea for this workshop sparked during [a conversation in the community](http
 After [this post](https://www.facebook.com/groups/SparkARcommunity/posts/1245275375884502/), over a 120 submissions were received expressing interest in the workshop
 
 <details>
- <summary>Some data about those... <br><br></summary>
+ <summary>Some data about those...  (click to open)<br><br></summary>
 
 Of the submissions received:
 - About 90% had previously created and published an effect

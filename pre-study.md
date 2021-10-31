@@ -50,7 +50,7 @@ In Javascript, all data can either be *Fixed*, or *Variable*
 Fixed data is data you type out every time you need to use it, while Variable data is assigned to a variable, which can then be used to reference the data
 
 <details>
-<summary>An example of how that helps simplify your code</summary>
+<summary>An example of how that helps simplify your code (click to open)</summary>
 
 ```js
 const maxScore = 10 * 5;
@@ -233,7 +233,7 @@ prettierObj.a long key with spaces in it // fails
 
 Even though these are external, please, do ask questions you might have while reading them!
 
-- [(Youtube) Learn Javascript in 12 minutes](https://youtu.be/Ukg_U3CnJWI). This video is intended for Web developers, but it's really good and concise :).<details><summary> The only differences / points that are not applicable to Spark </summary>
+- [(Youtube) Learn Javascript in 12 minutes](https://youtu.be/Ukg_U3CnJWI). This video is intended for Web developers, but it's really good and concise :).<details><summary> The only differences / points that are not applicable to Spark (click to open)</summary>
 
     - Everything that's wrapped in `<angle brackets>` is HTML (don't focus on that)
         ```html

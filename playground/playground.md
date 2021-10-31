@@ -44,7 +44,7 @@ If it's the first time you ever open a script, you may need to configure your co
 #### First time frequent issues:
 
 <details>
-<summary>Error: EACCES: permission denied</summary>
+<summary>Error: EACCES: permission denied (click to open)</summary>
 
 Shutting down Spark AR Studio and then opening it again usually solves it.
 
@@ -52,7 +52,7 @@ Additionally, you can try launching Spark AR by using Ctrl + Click from the laun
 </details>
 
 <details>
-<summary>Error: EACCES: permission denied, copyfile '/Users/user/Library/Caches/Facebook</summary>
+<summary>Error: EACCES: permission denied, copyfile '/Users/user/Library/Caches/Facebook (click to open)</summary>
 
 [Here's a community post that worked through it](https://www.facebook.com/groups/SparkARcommunity/posts/763866907358687)
 </details>
