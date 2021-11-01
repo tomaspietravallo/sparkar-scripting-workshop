@@ -61,6 +61,12 @@ for(obj in objs){
     TG.onTap(obj).subscribe(()=>doThing(obj.name));
 };
 ```
+### Event sources from Signals
+
+```ts
+import Time from 'Time';
+Time.ms.monitor().subscribe();
+```
 
 ## Patch Bridge
 

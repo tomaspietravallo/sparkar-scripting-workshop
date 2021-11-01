@@ -1,7 +1,7 @@
 # sparkar-scripting-workshop
 Part of the first Javascript workshop for Spark AR (study group 1)
 
-This workshop is headed by [@tomaspietravallo](https://github.com/tomaspietravallo), and is based around the philosophy that "Learning has to be fun and interesting" thus, I'll be fast forwarding through lots of basics and fundamentals, so participants can get to the stage where they can visualize their code inside of Spark AR Studio and create experiences on their own. Material focused on the fundamentals and more advanced concepts will be provided to those who wish to delve deeper after the workshop.
+This workshop is headed by [@tomaspietravallo](https://github.com/tomaspietravallo), and is based around the idea that "Learning has to be fun and interesting" thus, I'll be fast forwarding through lots of basics and fundamentals, so participants can get to the stage where they can visualize their code inside of Spark AR Studio and create experiences on their own. Material focused on the fundamentals and more advanced concepts will be provided to those who wish to delve deeper after the workshop.
 
 ## Backstory
 
