@@ -36,7 +36,7 @@ A big thanks goes out to the team at Facebook, who immediately reached out to he
 - [x] Participants selected
 - [x] A place to get to know each other was formed
 - [x] Pre-study content made available
-- [ ] Pre-study test
+- [x] Pre-study test
 - [ ] Workshop event (Nov 3, 2021)
 - [ ] Staying in touch with each other and continuing the journey
 
