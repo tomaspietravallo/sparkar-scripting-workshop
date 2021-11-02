@@ -16,12 +16,15 @@ Write a script, where you:
 
 // Sample solution:
 
+// Store a number in a variable. 
 let x = 1;
 
+// Create a function that increments this number by one
 function increment(){
   x++;
 }
 
+// Then, call this function 20 times
 for (let x = 0; x < 20; x++){
  increment();
 }
