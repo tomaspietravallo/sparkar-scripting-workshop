@@ -34,8 +34,10 @@ main(); // avoid IIFEs
 ```ts
 // SceneObjectBase type & properties
 // may (will) need to get into Reactive for this 🙄
-obj.transform.position;
-obj.hidden;
+
+// note: cannot write to signal components, which makes the lesson harder
+obj.transform.position; // bind two different objects?
+obj.hidden; // tap event + !bool.pinLastValue?
 obj.name;
 ```
 
