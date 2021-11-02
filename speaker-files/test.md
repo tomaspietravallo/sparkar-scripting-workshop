@@ -33,3 +33,5 @@ for (let x = 0; x < 20; x++){
 > Solution is only a sample, there are **many** possible solutions
 
 > This test was deliberately made easier than the practice test
+
+> The answers told me more than whether participants got to the correct result. I was able to infer some of the reasoning they all did, and what they did to help themselves get to the answer (adding comments/logging values/etc). Again, the point of the test wasn’t to get the “right answer” from the beginning
