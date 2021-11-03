@@ -27,7 +27,7 @@ Of the submissions received:
 
 </details>
 
-A big thanks goes out to the team at Facebook, who immediately reached out to help facilitate the event once they learned about it.
+A big thanks goes out to the team at Meta, who immediately reached out to help facilitate the event once they learned about it.
 
  
 ## Workshop roadmap
@@ -37,8 +37,8 @@ A big thanks goes out to the team at Facebook, who immediately reached out to he
 - [x] A place to get to know each other was formed
 - [x] Pre-study content made available
 - [x] Pre-study test
-- [ ] Workshop event (Nov 3, 2021)
-- [ ] Staying in touch with each other and continuing the journey
+- [x] Workshop event (Nov 3, 2021)
+- [x] Staying in touch with each other and continuing the journey
 
 ## Content
 - [pre-study.md](pre-study.md) a list of content to be studied before the workshop
