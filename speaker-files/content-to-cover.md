@@ -5,6 +5,9 @@
 - Persistence (?)
 
 # Long form
+## Q&A
+Clear any doubts about the pre-study & make sure there's a strong foundation to build on top of
+
 ## Scene + Promises
 
 Quickly re-introduce how to import modules.
