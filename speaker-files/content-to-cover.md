@@ -3,6 +3,7 @@
 - Touch Gestures
 - Patch bridge
 - Persistence (?)
+- Multipeer API (?)
 
 # Long form
 ## Q&A
